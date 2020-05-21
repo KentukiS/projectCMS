@@ -191,6 +191,10 @@ border-radius: 50% 50% 0 0;
 .map-block{
 	float: left;
 }
+.headerTitle{
+	text-align: center;
+	font-size:24px;
+}
 .contact{
 	padding-left: 50px;
     display: inline-block;

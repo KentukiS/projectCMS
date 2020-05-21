@@ -1,7 +1,5 @@
-	<div id="footer">
-		<footer>
+	<footer>
 			<p class="h shadow"><span>Если у вас остались вопросы</span></p>
-		</footer>
 		<a name="con"></a>
 		<div class="contain">
 		<div class="map-block">
@@ -40,6 +38,7 @@
 					<div><img src="img/Screenshot_9.png" alt=""></div>
 				</div>
 			</div>
-	</div>
+	</footer>
+
 </body>
 </html>
