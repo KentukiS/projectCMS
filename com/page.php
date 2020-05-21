@@ -1,7 +1,6 @@
 <?php defined('INDEX') OR die('Прямой доступ к странице запрещён!');
 /* КОМПОНЕНТ СТРАНИЦЫ */
 $alias = $_GET[alias];
-var_dump($_GET[alias]);
 $query = "SELECT * FROM pages WHERE page_alias='".$alias."' AND page_publish='Y' LIMIT 1";
 $db->run($query);
 $db->row();

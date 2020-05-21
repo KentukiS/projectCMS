@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title><?php echo $title; ?></title>
-</head>
-<body>
+<?php include ($_SERVER[DOCUMENT_ROOT]."/templates/header.php"); ?>
+
 	<div><?php echo $h1; ?></div>
 	<div><?php echo $component; ?></div>
-</body>
-</html>
+
+<?php include ($_SERVER[DOCUMENT_ROOT]."/templates/footer.php"); ?>
