@@ -34,6 +34,25 @@ if($_POST['add']){
 	}
 }
 
+// if($_POST['found']){
+// 	if(!empty($_POST['page_alias_edit'])) {
+// 		$query = "SELECT `page_alias` FROM `pages` WHERE `page_alias` = '".$_POST['page_alias_edit']."' ";
+// 		$db->run($query);
+// 		$queryT = "SELECT `page_h1` FROM `pages` WHERE `page_alias` = '".$_POST['page_alias_edit']."' ";
+// 		$db->run($queryT);
+// 		$queryTh = "SELECT `page_title` FROM `pages` WHERE `page_alias` = '".$_POST['page_alias_edit']."' ";
+// 		$db->run($queryTh);
+// 		$queryFr = "SELECT `page_content` FROM `pages` WHERE `page_alias` = '".$_POST['page_alias_edit']."' ";
+// 		$db->run($queryFr);
+
+// 	}
+// }
+
+if($_POST['refresh']){
+	if(!empty($_POST['page_alias']) && !empty($_POST['page_h1']) && !empty($_POST['page_title']) && !empty($_POST['page_content'])) {
+	}
+}
+
 if($_POST['removePage']){
 	if(!empty($_POST['delete_alias'])){
 		$query = "DELETE FROM `pages` WHERE `page_alias` = '".$_POST['delete_alias']."' ";

@@ -36,11 +36,12 @@ include "function.php";
 	<div class="addPage">
 		<form method="POST" action="">
 			<p class="text_center">Редактировать страницу</p>
-			<p><input placeholder="Введите алиас" type="text" name="page_alias"></p>
-			<p><input placeholder="Введите заголовок" type="text" name="page_h1"></p>
-			<p><input placeholder="Введите мета-заголовок" type="text" name="page_title"></p>
-			<p><textarea placeholder="Введите содержимое" class="text" name="page_content"></textarea></p>
-			<!-- <input name="add" class ="add" value="Добавить новую страницу" type="submit"> -->
+			<p><input placeholder="Введите алиас" type="text" name="page_alias_edit"></p>
+			<p><input placeholder="Введите заголовок" type="text" name="page_h1_edit"></p>
+			<p><input placeholder="Введите мета-заголовок" type="text" name="page_title_edit"></p>
+			<p><textarea placeholder="Введите содержимое" class="text" name="page_content_edit"></textarea></p>
+			<input name="found" class ="add" value="Найти страницу" type="submit">
+			<input name="refresh" class ="add" value="Обновить страницу" type="submit">
 		</form>
 	</div>
 	<div class="addPage removePage">
