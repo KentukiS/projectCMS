@@ -1,0 +1,77 @@
+.forms{
+	display: flex;
+	margin: 0px 30px;
+}
+.addPage{
+	margin: 0 30px;
+}
+.error{
+	background-color: #b12f2f;
+	color:white;
+	width: 200px;
+	text-align: center;
+}
+.exit{
+	display: block;
+    margin-left: auto;
+    background: white;
+    border: 1px solid dodgerblue;
+    padding: 8px 35px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: black;
+}
+.exit:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+.add{
+/*	display: block;
+	margin-left: auto;
+	position: relative;
+*/
+}
+.text_center{
+	text-align: center;
+	margin-top: -20px;
+}
+
+.text{
+	width: 300px;
+	height: 120px
+}
+
+.addPage {
+    width: 20%;
+    margin-top: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    padding: 40px;
+}
+.addPage input {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+.addPage textarea {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+.addPage input::placeholder,
+.addPage textarea::placeholder {
+	color: black;
+}
+.addPage input.add {
+    border: 1px solid darkorange;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+.removePage{
+	height: 200px !important;
+}

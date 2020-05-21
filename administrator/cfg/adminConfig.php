@@ -31,6 +31,7 @@ class MyDB{
 	function row() {
 		$this->data = mysql_fetch_assoc($this->result);
 	}
+
 	function fetch() {
 		while ($this->data = mysql_fetch_assoc($this->result)) {
 		$this->fetch = $this->data;

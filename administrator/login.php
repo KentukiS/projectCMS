@@ -6,22 +6,13 @@ $db->connect();
 $query = "SELECT * FROM usertbl";
 $db->run($query);
 $db->row();
-
 $dimas = $db->data[username];
 $password = $db->data[password];
-
-var_dump($dimas);
-echo "<br>";
-var_dump($password);
-echo "<br>";
-
-
 $passwordPost = md5($_POST['password']);
-
 $userPost = $_POST['username'];
 ?>
 
-<form action="" id="loginform" method="post"name="loginform">
+<form action="" id="loginform" method="post" name="loginform">
 	<p><label for="user_login">Username<br>
 	<input class="input" id="username" name="username" size="20" type="text" value=""></label></p>
 	<p><label for="user_pass">Password<br>
@@ -40,7 +31,7 @@ if($_POST['login']){
 				 // если залогинен - идём сюда 
 
 				echo "<script>alert('Вы успешно авторизированы');
-				 document.location.href = 'http://projectweb/administrator/index.php'
+				 document.location.href = '/administrator/index.php'
 				</script>";
 
 			}else{
